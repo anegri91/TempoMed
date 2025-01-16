@@ -88,7 +88,7 @@ class _ProgressBarScreenState extends State<ProgressBarScreen> {
             ),
             Text(
               'FCM-PB Turma XXXVI',
-              style: TextStyle(fontSize: 14, fontWeight: FontWeight.normal),
+              style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
             ),
           ],
         ),

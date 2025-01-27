@@ -12,7 +12,7 @@ class _ProgressBarScreenState extends State<ProgressBarScreen> {
   double _mainProgress = 0.0;
   List<double> _yearlyProgress = [1.0, 1.0, 1.0, 0.0, 0.0, 0.0];
 
-  final DateTime startDate = DateTime(2022, 1, 1, 12, 0);
+  final DateTime startDate = DateTime(2022, 1, 1, 0, 0);
   final DateTime endDate = DateTime(2027, 12, 31, 23, 59);
 
   @override
@@ -83,7 +83,7 @@ class _ProgressBarScreenState extends State<ProgressBarScreen> {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        title: Text('Tempo Med'),
+        title: Text('Tempo Med | FCMPB Turma XXXVI'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
@@ -92,7 +92,7 @@ class _ProgressBarScreenState extends State<ProgressBarScreen> {
           children: [
             // Main Countdown Progress Bar
             Text(
-              'Countdown to Completion:',
+              '#VemCRM',
               style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
             ),
             SizedBox(height: 8),
@@ -115,7 +115,7 @@ class _ProgressBarScreenState extends State<ProgressBarScreen> {
             SizedBox(height: 24),
             // Yearly Progress Bars
             Text(
-              'Yearly Progress:',
+              'Progresso Anual',
               style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
             ),
             SizedBox(height: 16),

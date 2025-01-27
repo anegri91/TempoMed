@@ -51696,7 +51696,7 @@ A.AK.prototype={
 P(a){var s=null
 return new A.pX(new A.qz(s),"Tempo Med",A.a2n(s,s,B.bE,s),s)}}
 A.qz.prototype={
-am(){return new A.EI(B.t,A.a([1,1,1,0,0,0],t.n),A.Jq(2022,1,1,12,0),A.Jq(2027,12,31,23,59))}}
+am(){return new A.EI(B.t,A.a([1,1,1,0,0,0],t.n),A.Jq(2022,1,1,0,0),A.Jq(2027,12,31,23,59))}}
 A.EI.prototype={
 aw(){var s=this
 s.aX()
@@ -51707,12 +51707,12 @@ m(){var s=this.d
 s===$&&A.b()
 s.aU()
 this.aA()},
-P(a){var s,r=null,q=A.rF("Tempo Med",r),p=A.rF("Countdown to Completion:",A.fw(r,r,r,r,r,r,r,r,r,r,r,18,r,r,B.bz,r,r,!0,r,r,r,r,r,r,r,r)),o=A.kI(r,8,r),n=this.e.a,m=B.h.bQ(n,864e8),l=B.h.bQ(m,365)
+P(a){var s,r=null,q=A.rF("Tempo Med | FCMPB Turma XXXVI",r),p=A.rF("#VemCRM",A.fw(r,r,r,r,r,r,r,r,r,r,r,18,r,r,B.bz,r,r,!0,r,r,r,r,r,r,r,r)),o=A.kI(r,8,r),n=this.e.a,m=B.h.bQ(n,864e8),l=B.h.bQ(m,365)
 m=B.h.aM(m,365)
 n=A.rF(""+l+"y "+B.h.bQ(m,30)+"m "+B.h.aM(m,30)+"d "+B.h.aM(B.h.bQ(n,36e8),24)+"h "+B.h.aM(B.h.bQ(n,6e7),60)+"m "+B.h.aM(B.h.bQ(n,1e6),60)+"s",A.fw(r,r,B.bE,r,r,r,r,r,r,r,r,24,r,r,r,r,r,!0,r,r,r,r,r,r,r,r))
 m=A.kI(r,16,r)
 s=this.f
-s=A.a([p,o,n,m,A.a5D(B.d7,10,s,new A.lj(B.bE,t.be)),A.kI(r,8,r),A.rF(B.c.S(s*100,2)+"%",A.fw(r,r,r,r,r,r,r,r,r,r,r,16,r,r,B.bz,r,r,!0,r,r,r,r,r,r,r,r)),A.kI(r,24,r),A.rF("Yearly Progress:",A.fw(r,r,r,r,r,r,r,r,r,r,r,18,r,r,B.bz,r,r,!0,r,r,r,r,r,r,r,r)),A.kI(r,16,r)],t.nA)
+s=A.a([p,o,n,m,A.a5D(B.d7,10,s,new A.lj(B.bE,t.be)),A.kI(r,8,r),A.rF(B.c.S(s*100,2)+"%",A.fw(r,r,r,r,r,r,r,r,r,r,r,16,r,r,B.bz,r,r,!0,r,r,r,r,r,r,r,r)),A.kI(r,24,r),A.rF("Progresso Anual",A.fw(r,r,r,r,r,r,r,r,r,r,r,18,r,r,B.bz,r,r,!0,r,r,r,r,r,r,r,r)),A.kI(r,16,r)],t.nA)
 m=this.r
 B.b.G(s,new A.pO(m,A.U(m).h("pO<1>")).gdu().e0(0,new A.YG(),t.z0).dg(0))
 return new A.r2(new A.nX(q,new A.EH(r,r,1/0,56),r),new A.iq(B.xd,A.a4i(s,B.nD),r),B.i,r)}}
